@@ -1,0 +1,20 @@
+
+.mat-list-item.system-menu {
+  display: flex;
+  flex-direction: column;
+  outline: none;
+  width: auto;
+  font-size: 12px;
+  &:hover {
+    background-color: rgb(230, 230, 230);
+  }
+  &.active {
+    background-color: #dbdbdb;
+  }
+  .mat-icon.route-icon {
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 5px;
+  }
+}
+

@@ -1,0 +1,9 @@
+<mat-nav-list>
+  <app-menu-item
+        *ngFor="let item of tree"
+        [item]="item"
+        [depth]="0"
+        (selected)="onItemSelected($event)">
+  </app-menu-item>
+</mat-nav-list>
+
